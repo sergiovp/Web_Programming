@@ -27,6 +27,6 @@ Para su correcto funcionamiento:
     + USER -> Su usuario de la DB
     + PASSWORD -> Su contraseña de la DB
 
-Para más información a cerca del desarrollo de la práctica, ver [cómo_se_hizo]().
+Para más información a cerca del desarrollo de la práctica, ver [cómo_se_hizo](https://github.com/sergiovp/Web_Programming/blob/master/c%C3%B3mo_se_hizo.pdf).
 
 ---
