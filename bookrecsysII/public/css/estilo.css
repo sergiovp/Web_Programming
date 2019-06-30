@@ -1,0 +1,794 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    background: url(../images/n.jpg);
+    background-attachment: fixed;
+  }
+  
+  /*HEADER INDEX*/
+  header{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  
+  header img{
+    float: left;
+    margin-left: 10px;
+  }
+  
+  header .parte-der-head{
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  header h1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  header .texto-cabezera{
+    width: 80%;
+    margin-top: 0;
+   text-align: center;
+  }
+  
+  header input{
+    width: 160px;
+    outline: none;
+    text-align: center;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  header label{
+    width: 140px;
+    display: block;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: CadetBlue;
+    margin-bottom: 2px;
+  }
+  
+  header a{
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  header button{
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  header::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  /*PARTE CENTRAL INDEX*/
+  .central{
+    background-color: rgba(255,255,255,0.85);
+  }
+  
+  div .parte-izquierda-central{
+    float: left;
+    width: 40%;
+    margin-left: 15px;
+    border-style: solid;
+    margin-top: 15px;
+    min-height: 60vw;
+  }
+  
+  div .parte-derecha-central{
+    float: right;
+    width: 50%;
+    margin-right: 15px;
+    border-style: solid;
+    margin-top: 15px;
+    min-height: 60vw;
+  }
+  
+  div .imagen-izq{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .parte-derecha-central h3{
+    text-align: center;
+    font-size: 3vw;
+  }
+  
+  article{
+    border-style: solid;
+    margin: 25px 50px 25px 50px;
+  }
+  
+  article img{
+    float: left;
+    width: 20%;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  article p{
+    float: right;
+    text-align: center;
+    width: 70%;
+    margin: 30px 5px 5px 5px;
+  }
+  
+  article span{
+    display: block;
+  }
+  
+  article p .titulo-libro{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2.5vw;
+  }
+  
+  article p .nombre-autor{
+    font-weight: bold;
+    color: blue;
+    font-size: 1.6vw;
+  }
+  
+  div::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  article::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+  
+  /* PARTE CENTRAL MISLIBROS*/
+  
+  /*FOOTER*/
+  footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+  }
+  
+  footer img{
+    height: 30px;
+    width: 30px;
+  }
+  
+  footer .parte-izquierda-footer{
+    float: left;
+    margin: 15px 0 15px 2%;
+  }
+  
+  footer .parte-derecha-footer{
+    float: right;
+    margin: 15px 2% 15px 0;
+  }
+  
+  footer p{
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer a{
+    font-size: 20px;
+  }
+  
+  footer::after{
+    content: '';
+    clear: both;
+    display: block;
+  }
+  /*REGISTRO altausuario*/
+  #centrado{
+    width: 300px;
+    padding: 0 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .registro h1{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .registro input{
+    display: block;
+    width: 100%;
+    color: black;
+    border: none;
+    height: 27px;
+    background: white;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  .registro label{
+    font-size: 19px;
+    font-weight: bold;
+  }
+  
+  .registro .registro-boton{
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-color: #ff4d4d;
+    border: solid;
+    border-width: 2px;
+    height: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /*HEADER INDEX2*/
+  section.parte-der-head{
+    margin-top: 6%;
+  }
+  span.bienvenida{
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: CadetBlue;
+    font-size: 20px;
+  }
+  
+  #logout{
+    margin-top: 30px;
+  }
+  
+  /* LINKS*/
+  a.enlace:link { color: CadetBlue; }
+  a.enlace:visited { color: CadetBlue; }
+  a.enlace:hover { color: blue; }
+  a.enlace:active { color: blue; }
+  
+  a.actual:link { color: red; }
+  a.actual:visited { color: red; }
+  a.actual:hover { color: blue; }
+  a.actual:active { color: blue; }
+  
+  /* NAV */
+  nav li{
+    list-style: none;
+  }
+  
+  nav ul{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .lista-menu li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 35px;
+    margin-right: 30px;
+  }
+  
+  .menu-navegacion{
+    position: relative;
+    padding: 10px, 20px, 10px, 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  
+  /* MISDATOS */
+  .registro{
+    padding: 0 42%;
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: CadetBlue;
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  
+  #caja-datos{
+    border-color: white;
+  }
+  
+  /* FORO */
+  main{
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  
+  .union-foro{
+    margin-left: 15px;
+  }
+  
+  .tabla{
+    text-align: center;
+    border-collapse: collapse;
+    width: 99%;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-width: 3px;
+  }
+  
+  .titulo{
+    font-weight: bold;
+    font-size: 3vw;
+  }
+  
+  td a{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  
+  .datos{
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  
+  .datos2{
+    font-weight: bolder;
+  }
+  
+  .gris{
+    background-color: rgba(225,230,230,0.65);
+  }
+  
+  .indice{
+    background-color: rgba(200,200,200,0.65);
+    border-bottom-style: groove;
+    border-top-style: groove;
+    border-color: black;
+  }
+  
+  .boton-tema{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 40px;
+  }
+  
+  .hilos{
+    border-collapse: collapse;
+    font-size: 18px;
+    width: 99%;
+    height: 300px;
+    border-color: black;
+    border-style: solid;
+    border-top: none;
+    border-width: 3px;
+  
+  }
+  
+  .texto-col-centrado{
+    text-align: center;
+  }
+  
+  .hilos span{
+    display: block;
+  }
+  
+  table strong{
+    font-size: 20px;
+    color: blue;
+  }
+  
+  /*RECOMENDACIONES*/
+  .var{
+    list-style-image: url(images/variedad_opt.png);
+  }
+  
+  .comic{
+    list-style-image: url(images/comic_opt.png);
+  }
+  
+  .ficc{
+    list-style-image: url(images/ficcion_opt.png);
+  }
+  
+  .infor{
+    list-style-image: url(images/pc_opt.png);
+  }
+  
+  .filtro{
+    margin-left: 10px;
+    border-left-style: dashed;
+  }
+  
+  .recomenda p{
+    text-align: center;
+  }
+  
+  .filtro li{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul.filtro{
+    margin-top: 0;
+  }
+  
+  .recomenda h3{
+    font-size: 30px;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-bottom: 0;
+  }
+  
+  .recomenda img{
+    height: 250px;
+    width: 200px;
+  }
+  
+  .recomenda button{
+    margin-top: 30px;
+    display: block;
+  }
+  
+  .recomenda p{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 30px;
+    font-size: 20px;
+  }
+  
+  .titulo{
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .recomenda span{
+    font-size: 17px;
+    display: block;
+  }
+  
+  .recomenda button{
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.3);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  /*LIBROLEIDO*/
+  
+  main .formulario-busqueda label{
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-weight: bold;
+  }
+  
+  .formulario-busqueda img{
+    float: left;
+    margin-right: 40px;
+  }
+  
+  .formulario-busqueda p{
+    margin-top: 0;
+  }
+  
+  .main-pedidos fieldset{
+    width: 90%;
+    margin-top: 20px;
+  }
+  
+  .main-pedidos img{
+    width: 170px;
+    margin-top: 10px;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .datos-busqueda-pequeño{
+    margin-bottom: 20px;
+    width: 50px;
+    text-align: center;
+    outline: none;
+    border-radius: 1px;
+    border-color: black;
+  }
+  
+  main .tipo-encuadernacion{
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  .main-pedidos{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .formulario-busqueda{
+    margin-left: 10px;
+  }
+  
+  .preguntas-formulario{
+    color: blue;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 1px;
+  }
+  
+  .formulario-busqueda input{
+    outline: none;
+    border-color: black;
+    border-style: solid;
+    margin-left: 5px;
+  }
+  
+  .parrafo span{
+    margin-bottom: 5%;
+    font-weight: bold;
+    text-decoration-color: CadetBlue;
+    font-size: 20px;
+  }
+  
+  .elegir-genero{
+    margin-bottom: 20px;
+    display: block;
+    margin-top: 20px;
+    width: 160px;
+    font-weight: bold;
+  }
+  
+  #boton-enviar{
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    background-color: green;
+    font-weight: bold;
+  }
+  
+  #sig{
+    float: right;
+    margin-right: 10px;
+  }
+  
+  #valorar{
+    font-size: 20px;
+    display: block;
+    margin: 10px 40% 10px 43%;
+  }
+  
+  .val{
+    font-weight: bold;
+  }
+  
+  li a:link { color: blue; }
+  li a:visited { color: blue; }
+  li a:hover { color: red; }
+  li a:active { color: blue; }
+  
+  /* MIS LIBROS PC*/
+  
+  @media screen and (min-width: 981px){
+    div .parte-derecha-central-res{
+      float: left;
+      width: 60%;
+      margin-left: 15px;
+      border-style: solid;
+      margin-top: 15px;
+      min-height: 60vw;
+    }
+  
+    .parte-derecha-central-res h3{
+      text-align: center;
+      font-size: 4vw;
+    }
+  
+    .parte-izquierda-central-res h3{
+      text-align: center;
+      font-size: 4vw;
+    }
+  
+    .nombre-autor2{
+      color: black;
+      font-weight: bold;
+      font-size: 3vw;
+    }
+  
+    div .parte-izquierda-central-res{
+      float: right;
+      width: 30%;
+      margin-right: 15px;
+      border-style: solid;
+      margin-top: 15px;
+      min-height: 66.8vw;
+    }
+  
+    .dar-alta{
+      text-align: center;
+      font-size: 25px;
+      margin-top: 100px;
+    }
+  
+    .reg{
+      text-align: center;
+      display: block;
+      font-weight: bold;
+      font-size: 2.5vw;
+      margin-bottom: 10%;
+    }
+  }
+  
+  @media screen and (max-width: 990px){
+    div .parte-derecha-central-res{
+      width: 90%;
+      border-style: solid;
+      margin-top: 15px;
+    }
+  
+    .parte-derecha-central-res h3{
+      text-align: center;
+      font-size: 4vw;
+    }
+  
+    .parte-izquierda-central-res h3{
+      text-align: center;
+      font-size: 4vw;
+    }
+  
+    .nombre-autor2{
+      color: black;
+      font-weight: bold;
+      font-size: 30px;
+    }
+  
+    div .parte-izquierda-central-res{
+      width: 90%;
+      border-style: solid;
+      margin-top: 15px;
+    }
+  
+    .dar-alta{
+      text-align: center;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  
+    .reg{
+      text-align: center;
+      display: block;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+  
+    header .texto-cabezera{
+      width: 85%;
+      font-size: 0.55em;
+     text-align: center;
+    }
+  
+    span.bienvenida{
+      font-weight: bold;
+      text-decoration: underline;
+      text-decoration-color: CadetBlue;
+      font-size: 2em;
+    }
+  
+    section.parte-der-head{
+      margin-top: 6em;
+    }
+  
+    header img{
+      float: left;
+      margin-left: 10px;
+      margin-top: 0.5em;
+    }
+  
+    header h1{
+      margin-left: 4em;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .lista-menu li{
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      display: inline-block;
+      font-size: 2.5em;
+      margin-right: 1em;
+    }
+  
+    .menu-navegacion{
+      position: relative;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.85);
+    }
+  }
+  
+  
+  a.enlace2:link { color: darkblue; }
+  a.enlace2:visited { color: darkblue; }
+  a.enlace2:hover { color: red; }
+  a.enlace2:active { color: red; }
+  
+  a.reg:link { color: darkblue; }
+  a.reg:visited { color: darkblue; }
+  a.reg:hover { color: red; }
+  a.reg:active { color: red; }
+  
+  .mensaje-error{
+    color: darkred;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3em;
+  }
+  
+  .mensaje-error2{
+    color: darkred;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /*
+
+  */
+
+.mens-reg{
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  color: cadetblue;
+}
+
+#no-m{
+  margin-right: 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+#se{
+  margin-bottom: 0;
+}
+
+.edit{
+  font-size: 2em;
+  margin-right: 1em;
+}
+
+a.edit:link { color: darkblue; }
+a.edit:visited { color: darkblue; }
+a.edit:hover { color: red; }
+a.edit:active { color: red; }
+
+.se{
+  margin-top: 0;
+}
